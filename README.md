@@ -7,7 +7,7 @@ Build an OSS dgraph docker image:
 
 Build a pydgraph docker image (used for gRPC tests):
 ```
-cd python && build_pydgraph_image.sh
+cd python && ./build_pydgraph_image.sh
 ```
 
 Run tests using the above images with and without TLS:
